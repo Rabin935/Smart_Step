@@ -1,0 +1,265 @@
+body {
+    margin: 0;
+    background-color: #ffffff;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+
+/* Header code is here */
+
+.header {
+    padding: 15px;
+    display: flex;
+    
+    padding-right: 25%;
+    padding-left: 25%;
+    justify-content: space-between;
+    border: 1px solid #e0e0e0;
+}
+
+.logoname{
+    margin: 0;
+    font-weight: 600;
+    font-size: 1.4rem;
+    
+}
+
+.logoname a{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+
+.logoname a span{
+    color: #7f4fe6;
+}
+
+.nav {
+  display: flex;
+  gap: 1.4rem;
+  overflow-x: auto;
+}
+
+.nav a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  white-space: nowrap;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.nav a:hover {
+  background-color: #e5e5e5;
+}
+
+
+.buy_btn{
+    padding: 7px;
+    border-radius: 3px;
+    text-decoration: none;
+    color: black;
+    border: 2px solid #7f4fe6;
+    transition: ease-in-out 0.1s;
+}
+
+.buy_btn:hover{
+    background-color: #e5e5e5;
+    
+}
+
+
+
+/* Dashboard code */
+
+/* section one  */
+
+.home
+{
+    padding-right: 25%;
+    padding-left: 25%;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    display: flex;
+    gap: 100px;
+    
+}
+
+.home .slogan .heading{
+    background: linear-gradient(90deg, rgba(250, 0, 4, 1) 0%, rgba(240, 10, 167, 1) 57%, #b602a7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+     display: inline-block;
+
+    font-size: 3rem;
+    font-weight: 600;
+
+
+}
+
+.smart{
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.smart span{
+    background: linear-gradient(90deg,rgba(125, 79, 224, 1) 0%, rgb(95, 61, 166) 50%, rgba(129, 47, 245, 1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+     display: inline-block;
+}
+
+.description{
+    font-size: 1.5rem;
+    color: #404040;
+    margin-top: 10px;
+}
+
+.purchase_btn{
+    padding-top: 20px;
+}
+
+.purchase_btn a{
+    background-color: #7f4fe6;
+    padding: 20px 105px;
+    font-weight: 600;
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.1s;
+}
+
+.purchase_btn a:hover{
+    background-color: #5632ae;
+}
+
+
+
+
+.secone_img{
+    background-color: cyan;
+    width: 500px;
+    height: 600px;
+}
+
+
+/* product section code here */
+
+.product{
+    padding-right: 25%;
+    padding-left: 25%;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    gap: 100px;
+    background-color: rgb(255, 238, 238);
+    display: flex;
+}
+
+.product_img{
+    background-color: cyan;
+    width: 700px;
+    height: 600px;
+}
+
+.why_you_should{
+    font-size: 4rem;
+    font-weight: 600;
+    color: #7f4fe6;
+    padding-bottom: 30px;
+}
+
+.exp{
+    font-size: 1.2rem;
+    font-weight: 200;
+    color: #686868;
+    padding-bottom: 20px;
+}
+
+
+.points ul {
+    list-style: none;
+    margin-bottom: 50px;
+    padding: 0;
+    
+}
+
+.points ul li {
+    margin-top: 20px;
+    font-size: 1.1rem;
+    color: #686868;
+}
+
+.points li::before {
+  content: '✔️';
+  margin-right: 10px;
+  
+}
+
+/* section team code */
+
+.Team{
+    padding-right: 25%;
+    padding-left: 25%;
+    padding-bottom: 50px;
+}
+
+.our_team{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 600;
+    color: #7f4fe6;
+}
+
+.team_desc{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 1.2rem;
+    color: #686868;
+    padding-bottom: 50px;
+}
+
+.cards {
+  background-color: #f0f4ff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  overflow: hidden;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.image-placeholder {
+  background-color: #d0d9e5;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: #555;
+}
+
+.content {
+  padding: 16px;
+}
+
+.role {
+  color: #888;
+  margin: 0;
+}
+
+.name {
+  color: #4b6ef4;
+  margin: 4px 0;
+}
+
+.description {
+  color: #333;
+  font-size: 14px;
+}
+
