@@ -224,11 +224,73 @@ body {
     padding-bottom: 50px;
 }
 
-.cards {
+
+.first_cards{
+
+    justify-content: center;
+    
+    display: flex;
+    gap: 50px;
+    padding-bottom: 30px;
+}
+
+
+.second_cards{
+    display: flex;
+    gap: 50px;
+}
+
+.rabin_card {
   background-color: #f0f4ff;
   border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  max-width: 300px;
+  box-shadow: 0 4px 10px #0000001a;
+  width: 300px;
+  overflow: hidden;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+
+.Dipen_card {
+  background-color: #f0f4ff;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  overflow: hidden;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+
+
+.Yubraj_card {
+  background-color: #f0f4ff;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  overflow: hidden;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+
+
+.Sanjay_card {
+  background-color: #f0f4ff;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  overflow: hidden;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+
+.Sanjeeta_card {
+  background-color: #f0f4ff;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  width: 300px;
   overflow: hidden;
   text-align: center;
   font-family: Arial, sans-serif;
@@ -249,8 +311,11 @@ body {
 }
 
 .role {
-  color: #888;
+  color: #1c1c1c;
   margin: 0;
+  font-size: 12px;
+  border: 2px solid #7f4fe6;
+  border-radius: 1;
 }
 
 .name {
@@ -262,4 +327,7 @@ body {
   color: #333;
   font-size: 14px;
 }
+
+
+
 

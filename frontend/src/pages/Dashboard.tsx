@@ -64,12 +64,13 @@ const Dashboard = () => {
           deliver solutions that truly make a difference. 
         </div>
 
-        <div className="cards">
+        <div className="first_cards">
+          
           <div className="rabin_card">
             <div className="image-placeholder">400 × 400</div>
             <div className="content">
               <h3 className="role">Lead Developer</h3>
-              <h2 className="name">Alex Johnson</h2>
+              <h2 className="name">Rabin Tamang</h2>
               <p className="description">
                 Architecting scalable solutions and leading our development team 
                 with a passion for clean code and innovative technology.
@@ -81,7 +82,7 @@ const Dashboard = () => {
             <div className="image-placeholder">400 × 400</div>
             <div className="content">
               <h3 className="role">Lead Developer</h3>
-              <h2 className="name">Alex Johnson</h2>
+              <h2 className="name">Dipen Tamang</h2>
               <p className="description">
                 Architecting scalable solutions and leading our development team 
                 with a passion for clean code and innovative technology.
@@ -89,11 +90,15 @@ const Dashboard = () => {
       </div>
           </div>
 
+          </div>
+
+          <div className="second_cards">
+
           <div className="Yubraj_card">
             <div className="image-placeholder">400 × 400</div>
             <div className="content">
               <h3 className="role">Lead Developer</h3>
-              <h2 className="name">Alex Johnson</h2>
+              <h2 className="name">Yubraj Karki</h2>
               <p className="description">
                 Architecting scalable solutions and leading our development team 
                 with a passion for clean code and innovative technology.
@@ -105,7 +110,7 @@ const Dashboard = () => {
             <div className="image-placeholder">400 × 400</div>
             <div className="content">
               <h3 className="role">Lead Developer</h3>
-              <h2 className="name">Alex Johnson</h2>
+              <h2 className="name">Sanjaya Shrestha</h2>
               <p className="description">
                 Architecting scalable solutions and leading our development team 
                 with a passion for clean code and innovative technology.
@@ -118,7 +123,7 @@ const Dashboard = () => {
             <div className="image-placeholder">400 × 400</div>
             <div className="content">
               <h3 className="role">Lead Developer</h3>
-              <h2 className="name">Alex Johnson</h2>
+              <h2 className="name">Sanjeeta Aryal</h2>
               <p className="description">
                 Architecting scalable solutions and leading our development team 
                 with a passion for clean code and innovative technology.
@@ -126,10 +131,12 @@ const Dashboard = () => {
       </div>
           </div>
 
+          </div>
 
 
 
-        </div>
+
+        
 
       </section>
       
